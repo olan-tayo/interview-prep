@@ -20,7 +20,10 @@ export default function Document() {
           href="https://api.fontshare.com/v2/css?f[]=clash-display@200,400,700,500,600,300&display=swap"
           rel="stylesheet"
         /> */}
-        <script src="https://cdn.onesignal.com/sdks/OneSignalSDKWorker.js"></script>
+        <script
+          src="https://cdn.onesignal.com/sdks/OneSignalSDKWorker.js"
+          async
+        ></script>
       </Head>
       <body>
         <Main />
