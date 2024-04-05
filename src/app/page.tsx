@@ -1,14 +1,6 @@
 "use client";
-
-import Head from "next/head";
 import { useEffect } from "react";
 import runOneSignal from "../../helper/oneSignal";
-
-interface CustomWindow extends Window {
-  OneSignal: any;
-}
-
-declare let window: CustomWindow;
 
 export default function Home() {
   useEffect(() => {
@@ -16,7 +8,7 @@ export default function Home() {
   });
   return (
     <div>
-      <h1>Testing</h1>
+      <h1>Testing Notification</h1>
     </div>
   );
 }
